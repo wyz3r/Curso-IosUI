@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QpS-Cm-NqH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,82 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRm-u5-nZ8">
+                                <rect key="frame" x="263" y="341" width="74" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="622-nz-0Je"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="-----&gt;">
+                                    <color key="titleColor" red="1" green="0.8215388654489475" blue="0.58492512132611574" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Vgr-kf-Cdv" kind="show" id="aSl-7f-acO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prepara Tu Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLs-V1-aOg">
+                                <rect key="frame" x="204" y="103" width="193" height="52"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DTp-uf-HoU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DLs-V1-aOg" secondAttribute="bottom" constant="445" id="GiM-XK-Y1k"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P34-js-TSJ"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bAF-n0-kET"/>
+                            <constraint firstItem="DLs-V1-aOg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="bDF-uZ-Pfr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wRm-u5-nZ8" secondAttribute="bottom" constant="217" id="h62-UL-Seq"/>
+                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="heK-XH-oiZ"/>
+                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l3S-OL-R9j"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zNU-3N-zkX"/>
+                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zp4-1P-XMa"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zca-VN-u8g"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1144" y="556"/>
+        </scene>
+        <!--Vista Tamano-->
+        <scene sceneID="YAM-OU-37v">
+            <objects>
+                <viewController id="Vgr-kf-Cdv" customClass="VistaTamano" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qm1-fy-33Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="eax-Hh-sAY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zpw-KM-vu3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jAL-bA-7RK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1798" y="556"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Dx-jN-x0H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QpS-Cm-NqH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nxp-Hb-7dV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1RN-do-aGw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J32-f7-jhw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="556"/>
         </scene>
     </scenes>
 </document>
