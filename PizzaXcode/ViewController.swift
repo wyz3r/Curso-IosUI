@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITextFieldDelegate {
 
+    @IBOutlet weak var inicioBoton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
@@ -17,6 +18,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
         self.view.insertSubview(backgroundImage, atIndex: 0)
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+        
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

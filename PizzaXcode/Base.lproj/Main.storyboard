@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRm-u5-nZ8">
-                                <rect key="frame" x="263" y="341" width="74" height="42"/>
+                                <rect key="frame" x="263" y="494" width="74" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="74" id="622-nz-0Je"/>
                                 </constraints>
@@ -30,25 +30,46 @@
                                     <segue destination="Vgr-kf-Cdv" kind="show" id="aSl-7f-acO"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prepara Tu Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLs-V1-aOg">
-                                <rect key="frame" x="204" y="103" width="193" height="52"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizzaRebanada" translatesAutoresizingMaskIntoConstraints="NO" id="4rF-5N-jzO">
+                                <rect key="frame" x="180" y="281" width="240" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="EdU-s2-7QO"/>
+                                    <constraint firstAttribute="width" constant="240" id="PSh-CB-ipP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ordena Tu Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QY4-qI-vtR">
+                                <rect key="frame" x="204" y="94" width="192" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="PyB-cF-6Zi"/>
+                                    <constraint firstAttribute="height" constant="93" id="saf-dP-crE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.80392156859999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DTp-uf-HoU"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DLs-V1-aOg" secondAttribute="bottom" constant="445" id="GiM-XK-Y1k"/>
+                            <constraint firstItem="4rF-5N-jzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8zv-wU-ZTZ"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BOX-Sd-1g0"/>
+                            <constraint firstItem="4rF-5N-jzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EXx-wK-4TO"/>
+                            <constraint firstItem="4rF-5N-jzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FSK-bC-sMw"/>
+                            <constraint firstItem="4rF-5N-jzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HyZ-ww-qne"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JB5-2h-wxG"/>
+                            <constraint firstItem="4rF-5N-jzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kly-Gn-wIA"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="top" secondItem="4rF-5N-jzO" secondAttribute="bottom" constant="82" id="Mfq-Po-5DM"/>
                             <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P34-js-TSJ"/>
+                            <constraint firstItem="4rF-5N-jzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="THU-Bx-RRK"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WP1-VP-HIs"/>
                             <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bAF-n0-kET"/>
-                            <constraint firstItem="DLs-V1-aOg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="bDF-uZ-Pfr"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wRm-u5-nZ8" secondAttribute="bottom" constant="217" id="h62-UL-Seq"/>
-                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="heK-XH-oiZ"/>
-                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l3S-OL-R9j"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c6A-iT-TpT"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eVD-nu-7eC"/>
+                            <constraint firstItem="QY4-qI-vtR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gy4-NR-wcv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wRm-u5-nZ8" secondAttribute="bottom" constant="64" id="h62-UL-Seq"/>
+                            <constraint firstItem="4rF-5N-jzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jzY-vb-ooL"/>
+                            <constraint firstItem="QY4-qI-vtR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="ksT-Cj-QiR"/>
+                            <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tp1-cP-D5n"/>
                             <constraint firstItem="wRm-u5-nZ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zNU-3N-zkX"/>
-                            <constraint firstItem="DLs-V1-aOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zp4-1P-XMa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zca-VN-u8g"/>
@@ -68,12 +89,128 @@
                     <view key="view" contentMode="scaleToFill" id="zpw-KM-vu3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tamaño " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZl-7g-dAb">
+                                <rect key="frame" x="210" y="90" width="181" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="lkw-sf-rgM"/>
+                                    <constraint firstAttribute="height" constant="52" id="opU-Xm-Xu1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.80392156859999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPM-ne-ZK7">
+                                <rect key="frame" x="282" y="191" width="37" height="30"/>
+                                <state key="normal" title="chica"/>
+                                <connections>
+                                    <action selector="chica:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="Nal-et-QxZ"/>
+                                    <segue destination="4fK-gI-Tt8" kind="show" identifier="Tchica" id="r8l-2S-zNZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCc-b0-qqV">
+                                <rect key="frame" x="271" y="329" width="59" height="30"/>
+                                <state key="normal" title="Mediana"/>
+                                <connections>
+                                    <action selector="med:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="Ln9-LG-7h8"/>
+                                    <segue destination="4fK-gI-Tt8" kind="show" identifier="Tmediana" id="Qj9-tO-bnz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBO-CC-R9P">
+                                <rect key="frame" x="275" y="458" width="51" height="30"/>
+                                <state key="normal" title="Grande"/>
+                                <connections>
+                                    <action selector="grande:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="6Uo-EM-buK"/>
+                                    <segue destination="4fK-gI-Tt8" kind="show" identifier="Tgrande" id="oQ6-fw-o6G"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jCc-b0-qqV" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="3hq-te-Or2"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="top" secondItem="qm1-fy-33Y" secondAttribute="bottom" constant="26" id="8Dh-6p-fjF"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="8Qb-7S-JHp"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="9Bm-LF-qlR"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="9yW-F3-7EB"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="DRc-p2-byl"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="Hzw-4j-Cop"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="KoB-2O-ymp"/>
+                            <constraint firstItem="UBO-CC-R9P" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="Mbd-5S-0I4"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="NDg-xC-M0S"/>
+                            <constraint firstItem="lPM-ne-ZK7" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="P4j-Wd-RHE"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="X5r-sB-6vg"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="avn-cK-N3u"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="bo3-so-Xp5"/>
+                            <constraint firstItem="lPM-ne-ZK7" firstAttribute="top" secondItem="PZl-7g-dAb" secondAttribute="bottom" constant="49" id="eEL-mD-rbZ"/>
+                            <constraint firstItem="jCc-b0-qqV" firstAttribute="top" secondItem="lPM-ne-ZK7" secondAttribute="bottom" constant="108" id="pX7-OZ-I2C"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="wsa-Kd-tVT"/>
+                            <constraint firstItem="eax-Hh-sAY" firstAttribute="top" secondItem="UBO-CC-R9P" secondAttribute="bottom" constant="112" id="xBN-dZ-Jou"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="yvN-6o-ezP"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jAL-bA-7RK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="556"/>
+            <point key="canvasLocation" x="1904" y="572"/>
+        </scene>
+        <!--View Masa-->
+        <scene sceneID="cs3-Fe-45T">
+            <objects>
+                <viewController id="4fK-gI-Tt8" customClass="ViewMasa" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Weq-tS-79D"/>
+                        <viewControllerLayoutGuide type="bottom" id="pXY-HT-kD8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="za2-Kz-v6g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DW-d9-beb">
+                                <rect key="frame" x="215" y="71" width="181" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="HbJ-Vp-5eK"/>
+                                    <constraint firstAttribute="height" constant="52" id="dr6-Yl-1M3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.80392156859999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6k-Ps-ajG">
+                                <rect key="frame" x="282" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0DW-d9-beb" firstAttribute="centerX" secondItem="za2-Kz-v6g" secondAttribute="centerX" constant="5.5" id="DE3-uN-tgm"/>
+                            <constraint firstItem="i6k-Ps-ajG" firstAttribute="centerY" secondItem="za2-Kz-v6g" secondAttribute="centerY" id="GB4-uy-Ty6"/>
+                            <constraint firstItem="0DW-d9-beb" firstAttribute="top" secondItem="Weq-tS-79D" secondAttribute="bottom" constant="7" id="Mx6-I6-BtC"/>
+                            <constraint firstItem="i6k-Ps-ajG" firstAttribute="centerX" secondItem="za2-Kz-v6g" secondAttribute="centerX" constant="5" id="PFW-1S-uss"/>
+                            <constraint firstItem="0DW-d9-beb" firstAttribute="centerX" secondItem="za2-Kz-v6g" secondAttribute="centerX" constant="5.5" id="ov8-bv-e9N"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2D7-Gs-961" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2622" y="556"/>
+        </scene>
+        <!--Presentacion Orden-->
+        <scene sceneID="rAH-wG-v3t">
+            <objects>
+                <viewController id="EAD-nA-wKh" customClass="PresentacionOrden" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Awc-Z2-hAH"/>
+                        <viewControllerLayoutGuide type="bottom" id="bW3-q9-XPx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DOv-SC-pNP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BSC-Jx-I6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1886" y="1313"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Dx-jN-x0H">
@@ -94,4 +231,10 @@
             <point key="canvasLocation" x="332" y="556"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pizzaRebanada" width="600" height="364"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="r8l-2S-zNZ"/>
+    </inferredMetricsTieBreakers>
 </document>
