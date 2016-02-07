@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E204A4491C64667500B4F5E1 /* ViewMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E204A4481C64667500B4F5E1 /* ViewMasa.swift */; };
-		E204A44B1C66BAD200B4F5E1 /* PresentacionOrden.swift in Sources */ = {isa = PBXBuildFile; fileRef = E204A44A1C66BAD200B4F5E1 /* PresentacionOrden.swift */; };
 		E254CF531C61E71B00B3855B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254CF521C61E71B00B3855B /* AppDelegate.swift */; };
 		E254CF551C61E71B00B3855B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254CF541C61E71B00B3855B /* ViewController.swift */; };
 		E254CF581C61E71B00B3855B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E254CF561C61E71B00B3855B /* Main.storyboard */; };
@@ -19,7 +18,6 @@
 
 /* Begin PBXFileReference section */
 		E204A4481C64667500B4F5E1 /* ViewMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMasa.swift; sourceTree = "<group>"; };
-		E204A44A1C66BAD200B4F5E1 /* PresentacionOrden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentacionOrden.swift; sourceTree = "<group>"; };
 		E254CF4F1C61E71B00B3855B /* PizzaXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E254CF521C61E71B00B3855B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E254CF541C61E71B00B3855B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				E254CF5E1C61E71B00B3855B /* Info.plist */,
 				E254CF641C61E8DA00B3855B /* VistaTamano.swift */,
 				E204A4481C64667500B4F5E1 /* ViewMasa.swift */,
-				E204A44A1C66BAD200B4F5E1 /* PresentacionOrden.swift */,
 			);
 			path = PizzaXcode;
 			sourceTree = "<group>";
@@ -148,7 +145,6 @@
 				E254CF651C61E8DA00B3855B /* VistaTamano.swift in Sources */,
 				E204A4491C64667500B4F5E1 /* ViewMasa.swift in Sources */,
 				E254CF531C61E71B00B3855B /* AppDelegate.swift in Sources */,
-				E204A44B1C66BAD200B4F5E1 /* PresentacionOrden.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

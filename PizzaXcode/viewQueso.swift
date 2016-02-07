@@ -1,28 +1,29 @@
 //
-//  ViewMasa.swift
+//  viewQueso.swift
 //  PizzaXcode
 //
-//  Created by Leo on 04/02/16.
+//  Created by Leo on 06/02/16.
 //  Copyright © 2016 leonel islas gonzalez . All rights reserved.
 //
 
 import UIKit
 
-class ViewMasa: UIViewController {
-
-    var tam : String = ""
-    var masaButton : String = ""
-    override func viewWillAppear(animated: Bool) {
-        print("Tamaño \(tam)")
-   
-    }
-   
+class viewQueso: UIViewController {
+    var tamanoEnQueso:String = ""
+    var masaEnQueso:String = ""
+    var QuesoButton : String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
         backgroundImage.image = UIImage(named: "rustica_background")
         self.view.insertSubview(backgroundImage, atIndex: 0)
         // Do any additional setup after loading the view.
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        print("tamaño \(tamanoEnQueso)")
+        print("masa \(masaEnQueso)")
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,31 +31,12 @@ class ViewMasa: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func Delgada(sender: AnyObject) {
-        masaButton = "Delgada"
-        activado()
-        print(" ")
-    }
-    @IBAction func Gruesa(sender: AnyObject) {
-        masaButton = "Gruesa"
-        activado()
-        print(" ")
-    }
-
-    @IBAction func Cruji(sender: AnyObject) {
-        masaButton = "Crujiente"
-        activado()
-        print(" ")
-    }
-    
     func activado(){
-    
-    print("Tamaño \(tam)")
-        print("Masa \(masaButton)")
+        
+        print("tamaño \(tamanoEnQueso)")
+        print("masa \(masaEnQueso)")
 
     }
-    
-
     /*
     // MARK: - Navigation
 

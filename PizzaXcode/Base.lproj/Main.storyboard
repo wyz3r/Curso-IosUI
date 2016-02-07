@@ -101,27 +101,39 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPM-ne-ZK7">
-                                <rect key="frame" x="282" y="191" width="37" height="30"/>
-                                <state key="normal" title="chica"/>
+                                <rect key="frame" x="246" y="179" width="109" height="53"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="chica" backgroundImage="sinqueso">
+                                    <color key="titleColor" red="0.99607843139999996" green="0.59703519236184077" blue="0.20649054613122136" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="chica:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="Nal-et-QxZ"/>
-                                    <segue destination="4fK-gI-Tt8" kind="show" identifier="Tchica" id="r8l-2S-zNZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCc-b0-qqV">
-                                <rect key="frame" x="271" y="329" width="59" height="30"/>
-                                <state key="normal" title="Mediana"/>
-                                <connections>
-                                    <action selector="med:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="Ln9-LG-7h8"/>
-                                    <segue destination="4fK-gI-Tt8" kind="show" identifier="Tmediana" id="Qj9-tO-bnz"/>
+                                    <segue destination="MO7-Ft-Ane" kind="show" id="OUR-Xx-U71"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBO-CC-R9P">
-                                <rect key="frame" x="275" y="458" width="51" height="30"/>
-                                <state key="normal" title="Grande"/>
+                                <rect key="frame" x="246" y="392" width="109" height="53"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Grande" backgroundImage="sinqueso">
+                                    <color key="titleColor" red="0.99607843139999996" green="0.59703519236184077" blue="0.20649054613122136" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="grande:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="6Uo-EM-buK"/>
-                                    <segue destination="4fK-gI-Tt8" kind="show" identifier="Tgrande" id="oQ6-fw-o6G"/>
+                                    <segue destination="MO7-Ft-Ane" kind="show" id="nAo-uR-DCg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCc-b0-qqV">
+                                <rect key="frame" x="246" y="293" width="109" height="53"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Mediana" backgroundImage="sinqueso">
+                                    <color key="titleColor" red="0.99607843139999996" green="0.59703519236184077" blue="0.20649054613122136" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="med:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="Ln9-LG-7h8"/>
+                                    <segue destination="MO7-Ft-Ane" kind="show" id="eKY-fm-qaa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -130,21 +142,31 @@
                             <constraint firstItem="jCc-b0-qqV" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="3hq-te-Or2"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="top" secondItem="qm1-fy-33Y" secondAttribute="bottom" constant="26" id="8Dh-6p-fjF"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="8Qb-7S-JHp"/>
+                            <constraint firstItem="UBO-CC-R9P" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="8yG-Rf-N8f"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="9Bm-LF-qlR"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="9yW-F3-7EB"/>
+                            <constraint firstItem="jCc-b0-qqV" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="Bok-eK-0UG"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="DRc-p2-byl"/>
+                            <constraint firstItem="jCc-b0-qqV" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="GBE-Ln-7wH"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="GWm-Fm-6mU"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="Hzw-4j-Cop"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="KoB-2O-ymp"/>
                             <constraint firstItem="UBO-CC-R9P" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="Mbd-5S-0I4"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="NDg-xC-M0S"/>
                             <constraint firstItem="lPM-ne-ZK7" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="P4j-Wd-RHE"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="X5r-sB-6vg"/>
+                            <constraint firstItem="jCc-b0-qqV" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="YGu-Hg-qzR"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="avn-cK-N3u"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="bo3-so-Xp5"/>
-                            <constraint firstItem="lPM-ne-ZK7" firstAttribute="top" secondItem="PZl-7g-dAb" secondAttribute="bottom" constant="49" id="eEL-mD-rbZ"/>
-                            <constraint firstItem="jCc-b0-qqV" firstAttribute="top" secondItem="lPM-ne-ZK7" secondAttribute="bottom" constant="108" id="pX7-OZ-I2C"/>
+                            <constraint firstItem="lPM-ne-ZK7" firstAttribute="top" secondItem="PZl-7g-dAb" secondAttribute="bottom" constant="37" id="eEL-mD-rbZ"/>
+                            <constraint firstItem="UBO-CC-R9P" firstAttribute="top" secondItem="jCc-b0-qqV" secondAttribute="bottom" constant="46" id="eGK-Bc-HlL"/>
+                            <constraint firstItem="UBO-CC-R9P" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="eaO-Wd-wDS"/>
+                            <constraint firstItem="lPM-ne-ZK7" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="gzf-VX-rw2"/>
+                            <constraint firstItem="lPM-ne-ZK7" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="mRQ-m1-ef4"/>
+                            <constraint firstItem="jCc-b0-qqV" firstAttribute="top" secondItem="lPM-ne-ZK7" secondAttribute="bottom" constant="61" id="pX7-OZ-I2C"/>
+                            <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="qvt-Jl-VeS"/>
+                            <constraint firstItem="UBO-CC-R9P" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="tqe-eA-olI"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="wsa-Kd-tVT"/>
-                            <constraint firstItem="eax-Hh-sAY" firstAttribute="top" secondItem="UBO-CC-R9P" secondAttribute="bottom" constant="112" id="xBN-dZ-Jou"/>
                             <constraint firstItem="PZl-7g-dAb" firstAttribute="centerX" secondItem="zpw-KM-vu3" secondAttribute="centerX" id="yvN-6o-ezP"/>
                         </constraints>
                     </view>
@@ -154,63 +176,74 @@
             <point key="canvasLocation" x="1904" y="572"/>
         </scene>
         <!--View Masa-->
-        <scene sceneID="cs3-Fe-45T">
+        <scene sceneID="HdJ-dl-jYG">
             <objects>
-                <viewController id="4fK-gI-Tt8" customClass="ViewMasa" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MO7-Ft-Ane" customClass="ViewMasa" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Weq-tS-79D"/>
-                        <viewControllerLayoutGuide type="bottom" id="pXY-HT-kD8"/>
+                        <viewControllerLayoutGuide type="top" id="c6K-Gw-VVO"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Ey-0x-880"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="za2-Kz-v6g">
+                    <view key="view" contentMode="scaleToFill" id="U6M-5Z-TIJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DW-d9-beb">
-                                <rect key="frame" x="215" y="71" width="181" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XY1-oL-ZT2">
+                                <rect key="frame" x="210" y="114" width="181" height="52"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="181" id="HbJ-Vp-5eK"/>
-                                    <constraint firstAttribute="height" constant="52" id="dr6-Yl-1M3"/>
+                                    <constraint firstAttribute="width" constant="181" id="NTI-mP-ZcP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
                                 <color key="textColor" red="0.99607843139999996" green="0.80392156859999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6k-Ps-ajG">
-                                <rect key="frame" x="282" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-8Q-Bud">
+                                <rect key="frame" x="272" y="221" width="57" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cSj-cR-gVe"/>
+                                </constraints>
+                                <state key="normal" title="Delgada"/>
+                                <connections>
+                                    <action selector="Delgada:" destination="MO7-Ft-Ane" eventType="touchUpInside" id="ZiL-hJ-MeD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ql0-9L-bbM">
+                                <rect key="frame" x="284" y="336" width="32" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fc3-wk-7Ba"/>
+                                </constraints>
+                                <state key="normal" title="Cruji"/>
+                                <connections>
+                                    <action selector="Cruji:" destination="MO7-Ft-Ane" eventType="touchUpInside" id="Ybg-M4-NxA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMz-Eg-VZf">
+                                <rect key="frame" x="276" y="445" width="49" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4dn-Br-Sln"/>
+                                </constraints>
+                                <state key="normal" title="Gruesa"/>
+                                <connections>
+                                    <action selector="Gruesa:" destination="MO7-Ft-Ane" eventType="touchUpInside" id="mgm-a2-VvB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0DW-d9-beb" firstAttribute="centerX" secondItem="za2-Kz-v6g" secondAttribute="centerX" constant="5.5" id="DE3-uN-tgm"/>
-                            <constraint firstItem="i6k-Ps-ajG" firstAttribute="centerY" secondItem="za2-Kz-v6g" secondAttribute="centerY" id="GB4-uy-Ty6"/>
-                            <constraint firstItem="0DW-d9-beb" firstAttribute="top" secondItem="Weq-tS-79D" secondAttribute="bottom" constant="7" id="Mx6-I6-BtC"/>
-                            <constraint firstItem="i6k-Ps-ajG" firstAttribute="centerX" secondItem="za2-Kz-v6g" secondAttribute="centerX" constant="5" id="PFW-1S-uss"/>
-                            <constraint firstItem="0DW-d9-beb" firstAttribute="centerX" secondItem="za2-Kz-v6g" secondAttribute="centerX" constant="5.5" id="ov8-bv-e9N"/>
+                            <constraint firstItem="Ql0-9L-bbM" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="I7f-uN-SP0"/>
+                            <constraint firstItem="T8h-8Q-Bud" firstAttribute="top" secondItem="XY1-oL-ZT2" secondAttribute="bottom" constant="55" id="IvX-S9-n23"/>
+                            <constraint firstItem="GMz-Eg-VZf" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="RUx-zZ-Da7"/>
+                            <constraint firstItem="T8h-8Q-Bud" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="UgL-Wd-kIA"/>
+                            <constraint firstItem="XY1-oL-ZT2" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="V56-tl-dm3"/>
+                            <constraint firstItem="Ql0-9L-bbM" firstAttribute="top" secondItem="T8h-8Q-Bud" secondAttribute="bottom" constant="85" id="WtP-2f-lz7"/>
+                            <constraint firstItem="GMz-Eg-VZf" firstAttribute="top" secondItem="Ql0-9L-bbM" secondAttribute="bottom" constant="79" id="fdS-f5-ogO"/>
+                            <constraint firstItem="XY1-oL-ZT2" firstAttribute="top" secondItem="c6K-Gw-VVO" secondAttribute="bottom" constant="50" id="kPB-0I-d6d"/>
+                            <constraint firstItem="9Ey-0x-880" firstAttribute="top" secondItem="GMz-Eg-VZf" secondAttribute="bottom" constant="125" id="mo3-08-ZNf"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2D7-Gs-961" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bnV-JN-zmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2622" y="556"/>
-        </scene>
-        <!--Presentacion Orden-->
-        <scene sceneID="rAH-wG-v3t">
-            <objects>
-                <viewController id="EAD-nA-wKh" customClass="PresentacionOrden" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Awc-Z2-hAH"/>
-                        <viewControllerLayoutGuide type="bottom" id="bW3-q9-XPx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="DOv-SC-pNP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BSC-Jx-I6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1886" y="1313"/>
+            <point key="canvasLocation" x="2564" y="572"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Dx-jN-x0H">
@@ -233,8 +266,9 @@
     </scenes>
     <resources>
         <image name="pizzaRebanada" width="600" height="364"/>
+        <image name="sinqueso" width="109" height="53"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r8l-2S-zNZ"/>
+        <segue reference="nAo-uR-DCg"/>
     </inferredMetricsTieBreakers>
 </document>

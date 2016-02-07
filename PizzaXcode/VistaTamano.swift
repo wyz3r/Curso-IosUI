@@ -36,8 +36,9 @@ class VistaTamano:UIViewController,UITableViewDelegate{
     
     @IBAction func grande(sender: AnyObject) {
         tamanoPizza = "Grande"
-       // print("tamaño \(tamanoPizza)")
+        print("tamaño \(tamanoPizza)")
     }
+    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
     {
