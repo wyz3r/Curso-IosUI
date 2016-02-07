@@ -47,6 +47,15 @@ class ViewMasa: UIViewController {
         print(" ")
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        let sigVista = segue.destinationViewController as! ViewQueso
+        sigVista.TamQueso = tam
+        sigVista.masaQueso = masaButton
+        
+    
+    }
+    
     func activado(){
     
     print("Tamaño \(tam)")

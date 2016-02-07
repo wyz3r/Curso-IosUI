@@ -25,6 +25,13 @@ class ViewController: UIViewController,UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    /*
+    let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+    
+    let miVistaDos = storyBoard.instantiateViewControllerWithIdentifier("vistaDos") as! ViewControllerDos
+    
+    self.presentViewController(miVistaDos, animated:true, completion:nil)
+    */
 
 
 }

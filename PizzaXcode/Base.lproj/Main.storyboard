@@ -188,7 +188,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XY1-oL-ZT2">
-                                <rect key="frame" x="210" y="114" width="181" height="52"/>
+                                <rect key="frame" x="215" y="81" width="181" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="181" id="NTI-mP-ZcP"/>
                                 </constraints>
@@ -197,53 +197,126 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-8Q-Bud">
-                                <rect key="frame" x="272" y="221" width="57" height="30"/>
+                                <rect key="frame" x="277" y="188" width="57" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="cSj-cR-gVe"/>
                                 </constraints>
                                 <state key="normal" title="Delgada"/>
                                 <connections>
                                     <action selector="Delgada:" destination="MO7-Ft-Ane" eventType="touchUpInside" id="ZiL-hJ-MeD"/>
+                                    <segue destination="ypg-jA-zdm" kind="show" id="UTU-XK-V8M"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ql0-9L-bbM">
-                                <rect key="frame" x="284" y="336" width="32" height="30"/>
+                                <rect key="frame" x="289" y="303" width="32" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="fc3-wk-7Ba"/>
                                 </constraints>
                                 <state key="normal" title="Cruji"/>
                                 <connections>
                                     <action selector="Cruji:" destination="MO7-Ft-Ane" eventType="touchUpInside" id="Ybg-M4-NxA"/>
+                                    <segue destination="ypg-jA-zdm" kind="show" id="5fU-67-5nv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMz-Eg-VZf">
-                                <rect key="frame" x="276" y="445" width="49" height="30"/>
+                                <rect key="frame" x="281" y="412" width="49" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4dn-Br-Sln"/>
                                 </constraints>
                                 <state key="normal" title="Gruesa"/>
                                 <connections>
                                     <action selector="Gruesa:" destination="MO7-Ft-Ane" eventType="touchUpInside" id="mgm-a2-VvB"/>
+                                    <segue destination="ypg-jA-zdm" kind="show" id="whN-bN-VcU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Ql0-9L-bbM" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="I7f-uN-SP0"/>
+                            <constraint firstItem="Ql0-9L-bbM" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" constant="5" id="I7f-uN-SP0"/>
                             <constraint firstItem="T8h-8Q-Bud" firstAttribute="top" secondItem="XY1-oL-ZT2" secondAttribute="bottom" constant="55" id="IvX-S9-n23"/>
-                            <constraint firstItem="GMz-Eg-VZf" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="RUx-zZ-Da7"/>
-                            <constraint firstItem="T8h-8Q-Bud" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="UgL-Wd-kIA"/>
-                            <constraint firstItem="XY1-oL-ZT2" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" id="V56-tl-dm3"/>
+                            <constraint firstItem="GMz-Eg-VZf" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" constant="5.5" id="RUx-zZ-Da7"/>
+                            <constraint firstItem="T8h-8Q-Bud" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" constant="5.5" id="UgL-Wd-kIA"/>
+                            <constraint firstItem="XY1-oL-ZT2" firstAttribute="centerX" secondItem="U6M-5Z-TIJ" secondAttribute="centerX" constant="5.5" id="V56-tl-dm3"/>
                             <constraint firstItem="Ql0-9L-bbM" firstAttribute="top" secondItem="T8h-8Q-Bud" secondAttribute="bottom" constant="85" id="WtP-2f-lz7"/>
                             <constraint firstItem="GMz-Eg-VZf" firstAttribute="top" secondItem="Ql0-9L-bbM" secondAttribute="bottom" constant="79" id="fdS-f5-ogO"/>
-                            <constraint firstItem="XY1-oL-ZT2" firstAttribute="top" secondItem="c6K-Gw-VVO" secondAttribute="bottom" constant="50" id="kPB-0I-d6d"/>
-                            <constraint firstItem="9Ey-0x-880" firstAttribute="top" secondItem="GMz-Eg-VZf" secondAttribute="bottom" constant="125" id="mo3-08-ZNf"/>
+                            <constraint firstItem="XY1-oL-ZT2" firstAttribute="top" secondItem="c6K-Gw-VVO" secondAttribute="bottom" constant="17" id="kPB-0I-d6d"/>
+                            <constraint firstItem="9Ey-0x-880" firstAttribute="top" secondItem="GMz-Eg-VZf" secondAttribute="bottom" constant="158" id="mo3-08-ZNf"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bnV-JN-zmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2564" y="572"/>
+        </scene>
+        <!--View Queso-->
+        <scene sceneID="RRb-br-IwF">
+            <objects>
+                <viewController id="ypg-jA-zdm" customClass="ViewQueso" customModule="PizzaXcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lQF-zP-hY5"/>
+                        <viewControllerLayoutGuide type="bottom" id="MMP-US-I7g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mrM-LD-5aD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cco-zZ-E3w">
+                                <rect key="frame" x="210" y="94" width="181" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="RBQ-kV-lUH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.80392156859999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vh6-oM-YJ5">
+                                <rect key="frame" x="269" y="185" width="63" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eSf-5C-LGT"/>
+                                </constraints>
+                                <state key="normal" title="mozarela"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCa-ya-lNd">
+                                <rect key="frame" x="271" y="251" width="57" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Ri4-1D-z0A"/>
+                                </constraints>
+                                <state key="normal" title="cheddar"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrT-97-y0q">
+                                <rect key="frame" x="262" y="323" width="77" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9ZE-m3-dI4"/>
+                                </constraints>
+                                <state key="normal" title="parmesano"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ht-4j-f25">
+                                <rect key="frame" x="266" y="398" width="66" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aiK-Qd-7Mx"/>
+                                </constraints>
+                                <state key="normal" title="sin queso"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cco-zZ-E3w" firstAttribute="top" secondItem="lQF-zP-hY5" secondAttribute="bottom" constant="30" id="03f-Vu-BS1"/>
+                            <constraint firstItem="qCa-ya-lNd" firstAttribute="top" secondItem="vh6-oM-YJ5" secondAttribute="bottom" constant="36" id="3Mx-U2-UYC"/>
+                            <constraint firstItem="vh6-oM-YJ5" firstAttribute="top" secondItem="cco-zZ-E3w" secondAttribute="bottom" constant="39" id="3d9-wq-xt1"/>
+                            <constraint firstItem="cco-zZ-E3w" firstAttribute="centerX" secondItem="mrM-LD-5aD" secondAttribute="centerX" id="3kj-ic-Ded"/>
+                            <constraint firstItem="vh6-oM-YJ5" firstAttribute="centerX" secondItem="mrM-LD-5aD" secondAttribute="centerX" id="61Q-RT-HwD"/>
+                            <constraint firstItem="MMP-US-I7g" firstAttribute="top" secondItem="9ht-4j-f25" secondAttribute="bottom" constant="172" id="CIE-j3-9qK"/>
+                            <constraint firstItem="qCa-ya-lNd" firstAttribute="centerX" secondItem="mrM-LD-5aD" secondAttribute="centerX" id="dSI-3N-VGn"/>
+                            <constraint firstItem="9ht-4j-f25" firstAttribute="centerX" secondItem="mrM-LD-5aD" secondAttribute="centerX" constant="-1" id="dbV-SO-pYs"/>
+                            <constraint firstItem="nrT-97-y0q" firstAttribute="centerX" secondItem="mrM-LD-5aD" secondAttribute="centerX" id="eeX-ew-eXT"/>
+                            <constraint firstItem="9ht-4j-f25" firstAttribute="top" secondItem="nrT-97-y0q" secondAttribute="bottom" constant="45" id="hHG-F6-elY"/>
+                            <constraint firstItem="nrT-97-y0q" firstAttribute="top" secondItem="qCa-ya-lNd" secondAttribute="bottom" constant="42" id="vBv-Wq-2xJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Cf-iE-JuM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3260" y="572"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Dx-jN-x0H">
@@ -270,5 +343,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="nAo-uR-DCg"/>
+        <segue reference="whN-bN-VcU"/>
     </inferredMetricsTieBreakers>
 </document>
