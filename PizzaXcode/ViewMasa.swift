@@ -58,8 +58,8 @@ class ViewMasa: UIViewController {
     
     func activado(){
     
-    print("Tamaño \(tam)")
-        print("Masa \(masaButton)")
+   // print("Tamaño \(tam)")
+        //print("Masa \(masaButton)")
 
     }
     
