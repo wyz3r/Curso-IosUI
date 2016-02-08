@@ -15,20 +15,18 @@ class ViewIngredientes: UIViewController {
     var TamIngredientes :String = ""
     var masaIngredientes : String = ""
     var QuesoIngredientes : String = ""
-    var IngredientesButton : String = ""
+    
     var ingCount:Int = 5
     var Ingredientes  = [String : NSObject]()
 
-    
-    
-    
     override func viewWillAppear(animated: Bool) {
         
-        
+        print("Datos Guardados")
         print("Tamaño4 \(TamIngredientes)")
         print("Masa4 \(masaIngredientes)")
         print("queso4 \(QuesoIngredientes)")
-        
+        print("Datos Guardados")
+
         
         
     }
@@ -290,6 +288,16 @@ class ViewIngredientes: UIViewController {
         
         
         print("\(Ingredientes)")
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        let sigVista = segue.destinationViewController as! ViewPresentacion
+        sigVista.tamPresentacion = TamIngredientes
+        sigVista.masaPresentacion = masaIngredientes
+        sigVista.quesoPresentacion = QuesoIngredientes
+        sigVista.ingredientesPresentacion = Ingredientes
+        
     }
     /*
     // MARK: - Navigation

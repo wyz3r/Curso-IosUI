@@ -105,7 +105,7 @@
                                 <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="chica" backgroundImage="sinqueso">
-                                    <color key="titleColor" red="0.99607843139999996" green="0.59703519236184077" blue="0.20649054613122136" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.99607843139999996" green="0.40085256409999998" blue="0.20818108199999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="chica:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="Nal-et-QxZ"/>
@@ -117,7 +117,7 @@
                                 <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="Grande" backgroundImage="sinqueso">
-                                    <color key="titleColor" red="0.99607843139999996" green="0.59703519236184077" blue="0.20649054613122136" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.99607843139999996" green="0.40085256409999998" blue="0.20818108199999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="grande:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="6Uo-EM-buK"/>
@@ -129,7 +129,7 @@
                                 <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="Mediana" backgroundImage="sinqueso">
-                                    <color key="titleColor" red="0.99607843139999996" green="0.59703519236184077" blue="0.20649054613122136" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.99607843139999996" green="0.40085256409999998" blue="0.20818108199999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="med:" destination="Vgr-kf-Cdv" eventType="touchUpInside" id="Ln9-LG-7h8"/>
@@ -346,28 +346,187 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBe-8i-MrD">
-                                <rect key="frame" x="279" y="289" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Hh-7v-ZQf">
+                                <rect key="frame" x="210" y="79" width="181" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="KWP-sf-OjU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.80392156859999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVo-5j-9l7">
-                                <rect key="frame" x="279" y="217" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masa :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVr-hq-OHh">
+                                <rect key="frame" x="232" y="215" width="60" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queso :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRm-hs-fZP">
+                                <rect key="frame" x="222" y="262" width="70" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jar-DQ-NW5">
+                                <rect key="frame" x="313" y="215" width="101" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="jjg-10-4Fk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y11-a7-iGo">
+                                <rect key="frame" x="308" y="262" width="114" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttk-c9-aRm">
+                                <rect key="frame" x="251" y="354" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="IMe-9J-0Lz"/>
+                                    <constraint firstAttribute="height" constant="21" id="wp4-MX-tZT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEO-1F-7pn">
+                                <rect key="frame" x="251" y="390" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0oA-ks-B4T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9B-CC-Q1w">
+                                <rect key="frame" x="251" y="467" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bys-nK-f0v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAs-3I-mNG">
+                                <rect key="frame" x="251" y="433" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="qG8-j7-Faw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQl-ev-ke0">
+                                <rect key="frame" x="251" y="503" width="98" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mr6-4t-wpd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredientes " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTU-o8-XbU">
+                                <rect key="frame" x="242" y="308" width="116" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="zKZ-Ko-WYc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybm-vk-NtA">
+                                <rect key="frame" x="262" y="536" width="74" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="q8G-2n-ZUI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="-----&gt;">
+                                    <color key="titleColor" red="1" green="0.82153886539999998" blue="0.58492512129999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tamaño :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oU-rH-OGN">
+                                <rect key="frame" x="210" y="167" width="82" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tamaño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnx-dq-vdZ">
+                                <rect key="frame" x="313" y="167" width="109" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.59703519240000003" blue="0.20649054610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZBe-8i-MrD" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="1IR-v7-ik5"/>
-                            <constraint firstItem="ZBe-8i-MrD" firstAttribute="top" secondItem="Q4d-OV-KTG" secondAttribute="bottom" constant="225" id="A1r-4M-V5i"/>
-                            <constraint firstItem="ZBe-8i-MrD" firstAttribute="centerY" secondItem="9d7-tK-QuV" secondAttribute="centerY" id="Df1-dZ-BNZ"/>
-                            <constraint firstItem="WVo-5j-9l7" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="2" id="Doa-lQ-Wpv"/>
-                            <constraint firstItem="ZBe-8i-MrD" firstAttribute="top" secondItem="WVo-5j-9l7" secondAttribute="bottom" constant="42" id="iFZ-xH-qfy"/>
-                            <constraint firstItem="ZBe-8i-MrD" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="wAP-HM-RIW"/>
+                            <constraint firstItem="TQl-ev-ke0" firstAttribute="top" secondItem="J9B-CC-Q1w" secondAttribute="bottom" constant="15" id="0SZ-KY-jE1"/>
+                            <constraint firstItem="qnx-dq-vdZ" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="67.5" id="10x-h5-XRg"/>
+                            <constraint firstItem="iEO-1F-7pn" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="2P6-lM-vRo"/>
+                            <constraint firstItem="ZAs-3I-mNG" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="5Xj-Km-VZa"/>
+                            <constraint firstItem="ZAs-3I-mNG" firstAttribute="leading" secondItem="J9B-CC-Q1w" secondAttribute="leading" id="68N-jM-m6F"/>
+                            <constraint firstItem="CVr-hq-OHh" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="-38" id="7Sh-d6-yAe"/>
+                            <constraint firstItem="ttk-c9-aRm" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="8Gd-wu-aPG"/>
+                            <constraint firstItem="Y11-a7-iGo" firstAttribute="leading" secondItem="jar-DQ-NW5" secondAttribute="leading" constant="-5" id="8gf-Fr-zHT"/>
+                            <constraint firstItem="J9B-CC-Q1w" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="B2P-De-as4"/>
+                            <constraint firstItem="ttk-c9-aRm" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="BZH-JY-5Fn"/>
+                            <constraint firstItem="eRm-hs-fZP" firstAttribute="trailing" secondItem="CVr-hq-OHh" secondAttribute="trailing" id="Cd5-u1-ktU"/>
+                            <constraint firstItem="Y11-a7-iGo" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="65" id="HmX-xu-X7a"/>
+                            <constraint firstItem="8oU-rH-OGN" firstAttribute="baseline" secondItem="qnx-dq-vdZ" secondAttribute="baseline" id="IN0-5h-ixq"/>
+                            <constraint firstItem="eRm-hs-fZP" firstAttribute="baseline" secondItem="Y11-a7-iGo" secondAttribute="baseline" id="IuJ-Gy-GZe"/>
+                            <constraint firstItem="lTU-o8-XbU" firstAttribute="top" secondItem="eRm-hs-fZP" secondAttribute="bottom" constant="22" id="MKQ-oI-d9A"/>
+                            <constraint firstItem="iEO-1F-7pn" firstAttribute="leading" secondItem="ZAs-3I-mNG" secondAttribute="leading" id="Oit-DA-HCT"/>
+                            <constraint firstItem="eRm-hs-fZP" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="-43" id="PBm-pO-VUc"/>
+                            <constraint firstItem="1Hh-7v-ZQf" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="QMM-C3-HJc"/>
+                            <constraint firstItem="1Hh-7v-ZQf" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="SPI-dC-6lh"/>
+                            <constraint firstItem="CVr-hq-OHh" firstAttribute="top" secondItem="8oU-rH-OGN" secondAttribute="bottom" constant="24" id="Tpq-L2-ODc"/>
+                            <constraint firstItem="TQl-ev-ke0" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="UIP-cw-I5O"/>
+                            <constraint firstItem="eRm-hs-fZP" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="-43" id="VAd-70-dPd"/>
+                            <constraint firstItem="8oU-rH-OGN" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="-49" id="VDd-0P-1Ws"/>
+                            <constraint firstItem="qnx-dq-vdZ" firstAttribute="leading" secondItem="jar-DQ-NW5" secondAttribute="leading" id="VXC-wf-mAP"/>
+                            <constraint firstItem="iEO-1F-7pn" firstAttribute="top" secondItem="ttk-c9-aRm" secondAttribute="bottom" constant="15" id="Yfh-vc-FiL"/>
+                            <constraint firstItem="ZAs-3I-mNG" firstAttribute="top" secondItem="iEO-1F-7pn" secondAttribute="bottom" constant="22" id="b4d-Sk-wFl"/>
+                            <constraint firstItem="jar-DQ-NW5" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="63.5" id="baF-ZS-VHM"/>
+                            <constraint firstItem="1Hh-7v-ZQf" firstAttribute="top" secondItem="Q4d-OV-KTG" secondAttribute="bottom" constant="15" id="cnL-lW-LBp"/>
+                            <constraint firstItem="lTU-o8-XbU" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="eCr-ch-Quo"/>
+                            <constraint firstItem="J9B-CC-Q1w" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="eej-7k-N04"/>
+                            <constraint firstItem="8oU-rH-OGN" firstAttribute="top" secondItem="1Hh-7v-ZQf" secondAttribute="bottom" constant="36" id="fT6-ZB-2iq"/>
+                            <constraint firstItem="Zdp-Ld-Ebi" firstAttribute="top" secondItem="1Hh-7v-ZQf" secondAttribute="bottom" constant="469" id="ffr-59-ode"/>
+                            <constraint firstItem="ybm-vk-NtA" firstAttribute="top" secondItem="TQl-ev-ke0" secondAttribute="bottom" constant="12" id="gfK-s1-sda"/>
+                            <constraint firstItem="ZAs-3I-mNG" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="hfR-uc-a5P"/>
+                            <constraint firstItem="CVr-hq-OHh" firstAttribute="baseline" secondItem="jar-DQ-NW5" secondAttribute="baseline" id="ki6-wv-UVF"/>
+                            <constraint firstItem="CVr-hq-OHh" firstAttribute="trailing" secondItem="8oU-rH-OGN" secondAttribute="trailing" id="kxZ-hO-u8P"/>
+                            <constraint firstItem="CVr-hq-OHh" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="-38" id="lQA-J3-6HA"/>
+                            <constraint firstItem="qnx-dq-vdZ" firstAttribute="leading" secondItem="8oU-rH-OGN" secondAttribute="trailing" constant="21" id="o5N-FC-0Nf"/>
+                            <constraint firstItem="Y11-a7-iGo" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="65" id="okL-PY-MKY"/>
+                            <constraint firstItem="jar-DQ-NW5" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="63.5" id="ou2-gY-FXr"/>
+                            <constraint firstItem="ttk-c9-aRm" firstAttribute="top" secondItem="lTU-o8-XbU" secondAttribute="bottom" constant="22" id="qoa-0u-j1r"/>
+                            <constraint firstItem="J9B-CC-Q1w" firstAttribute="top" secondItem="ZAs-3I-mNG" secondAttribute="bottom" constant="13" id="qyJ-4p-65A"/>
+                            <constraint firstItem="TQl-ev-ke0" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="ryN-co-dkA"/>
+                            <constraint firstItem="8oU-rH-OGN" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="-49" id="tgc-mD-B7w"/>
+                            <constraint firstItem="J9B-CC-Q1w" firstAttribute="leading" secondItem="TQl-ev-ke0" secondAttribute="leading" id="uXO-5F-Vmp"/>
+                            <constraint firstItem="lTU-o8-XbU" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="v6q-Iv-yIr"/>
+                            <constraint firstItem="eRm-hs-fZP" firstAttribute="top" secondItem="CVr-hq-OHh" secondAttribute="bottom" constant="23" id="vDw-nQ-3dh"/>
+                            <constraint firstItem="qnx-dq-vdZ" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="67.5" id="w8Y-ca-8H4"/>
+                            <constraint firstItem="ybm-vk-NtA" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" constant="-1" id="wMv-WS-P9K"/>
+                            <constraint firstItem="1Hh-7v-ZQf" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="wz0-hW-fuj"/>
+                            <constraint firstItem="iEO-1F-7pn" firstAttribute="centerX" secondItem="9d7-tK-QuV" secondAttribute="centerX" id="xpL-Gh-F0C"/>
+                            <constraint firstItem="ttk-c9-aRm" firstAttribute="leading" secondItem="iEO-1F-7pn" secondAttribute="leading" id="yxZ-Wn-ApM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kEa-vF-0nT"/>
+                    <connections>
+                        <outlet property="label1" destination="ttk-c9-aRm" id="NF9-XB-YaO"/>
+                        <outlet property="label2" destination="iEO-1F-7pn" id="xFN-sh-uGA"/>
+                        <outlet property="label3" destination="ZAs-3I-mNG" id="1E2-d2-DFR"/>
+                        <outlet property="label4" destination="J9B-CC-Q1w" id="nzb-jI-j0m"/>
+                        <outlet property="label5" destination="TQl-ev-ke0" id="WmM-fb-Sjp"/>
+                        <outlet property="preMasa" destination="jar-DQ-NW5" id="N9r-oV-Han"/>
+                        <outlet property="quesoPre" destination="Y11-a7-iGo" id="d7I-rF-QDV"/>
+                        <outlet property="tamPre" destination="qnx-dq-vdZ" id="dhx-3x-gBW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W42-xk-zr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
