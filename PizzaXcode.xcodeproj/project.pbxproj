@@ -17,6 +17,7 @@
 		E254CF5D1C61E71B00B3855B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E254CF5B1C61E71B00B3855B /* LaunchScreen.storyboard */; };
 		E254CF651C61E8DA00B3855B /* VistaTamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254CF641C61E8DA00B3855B /* VistaTamano.swift */; };
 		E2B16E2D1C67575200240290 /* ViewPresentacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B16E2C1C67575200240290 /* ViewPresentacion.swift */; };
+		E2B16E2F1C6850DD00240290 /* ViewCocina.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B16E2E1C6850DD00240290 /* ViewCocina.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E254CF5E1C61E71B00B3855B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E254CF641C61E8DA00B3855B /* VistaTamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTamano.swift; sourceTree = "<group>"; };
 		E2B16E2C1C67575200240290 /* ViewPresentacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPresentacion.swift; sourceTree = "<group>"; };
+		E2B16E2E1C6850DD00240290 /* ViewCocina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCocina.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				E204A44E1C67175D00B4F5E1 /* ViewQueso.swift */,
 				E204A4701C67345600B4F5E1 /* ViewIngredientes.swift */,
 				E2B16E2C1C67575200240290 /* ViewPresentacion.swift */,
+				E2B16E2E1C6850DD00240290 /* ViewCocina.swift */,
 			);
 			path = PizzaXcode;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				E254CF551C61E71B00B3855B /* ViewController.swift in Sources */,
 				E204A4711C67345600B4F5E1 /* ViewIngredientes.swift in Sources */,
 				E254CF651C61E8DA00B3855B /* VistaTamano.swift in Sources */,
+				E2B16E2F1C6850DD00240290 /* ViewCocina.swift in Sources */,
 				E204A4491C64667500B4F5E1 /* ViewMasa.swift in Sources */,
 				E254CF531C61E71B00B3855B /* AppDelegate.swift in Sources */,
 				E2B16E2D1C67575200240290 /* ViewPresentacion.swift in Sources */,
